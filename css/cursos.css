@@ -95,7 +95,7 @@ nav .cursos {
     display: flex;
     width: 100vw;
     height: 60vh;
-
+margin-bottom: 15px;
 }
 
 main a {
@@ -122,6 +122,11 @@ main h1 {
 
 
 main .italia {
+    transition: all 400ms ease;
+    cursor: default;
+    margin-left: 15px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
     width: 20%;
     background-position: center;
     background-size: cover;
@@ -130,8 +135,18 @@ main .italia {
 
 }
 
+.italia:hover{
+    box-shadow: 5px 5px 4px rgba(3, 32, 51, .8);
+    transform: translateY(-3%);
+}
+
+
 main .alemania {
-   
+    transition: all 400ms ease;
+    cursor: default;
+    margin-left: 15px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -139,9 +154,17 @@ main .alemania {
     width: 20%;
 }
 
-
+.alemania:hover{
+    box-shadow: 5px 5px 4px rgba(3, 32, 51, .8);
+    transform: translateY(-3%);
+}
 
 main .eeuu {
+    transition: all 400ms ease;
+    cursor: default;
+    margin-left: 15px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -149,18 +172,34 @@ main .eeuu {
     width: 20%;
 }
 
-
+.eeuu:hover{
+    box-shadow: 5px 5px 4px rgba(3, 32, 51, .8);
+    transform: translateY(-3%);
+}
 
 main .uk {
+    transition: all 400ms ease;
+    cursor: default;
+    margin-left: 15px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
     background-size: cover;
     position: relative;
     background-image: url("../media/Cartas/londres.png");
     width: 20%;
 }
 
-
+.uk:hover{
+    box-shadow: 5px 5px 4px rgba(3, 32, 51, .8);
+    transform: translateY(-3%);
+}
 
 main .rusia {
+    transition: all 400ms ease;
+    cursor: default;
+    margin-left: 15px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -168,8 +207,18 @@ main .rusia {
     width: 20%;
 }
 
+.rusia:hover{
+    box-shadow: 5px 5px 4px rgba(3, 32, 51, .8);
+    transform: translateY(-3%);
+}
+
 
 main .francia {
+    transition: all 400ms ease;
+    cursor: default;
+    margin-left: 15px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
     width: 20%;
     background-position: center;
     background-size: cover;
@@ -177,7 +226,10 @@ main .francia {
     background-image: url("../media/Cartas/francia.png");
 }
 
-
+.francia:hover{
+    box-shadow: 5px 5px 4px rgba(3, 32, 51, .8);
+    transform: translateY(-3%);
+}
 
 /* FOOTER */
 footer {
